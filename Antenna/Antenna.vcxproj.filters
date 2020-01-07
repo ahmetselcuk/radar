@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Radar.cpp">
+    <ClCompile Include="Antenna.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Radar.h">
+    <ClInclude Include="Antenna.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

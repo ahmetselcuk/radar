@@ -1,11 +1,24 @@
-#include "radar.h"
+#include "Radar.h"
+#include "Antenna.h"
+#include "Receiver.h"
+#include "Transmitter.h"
+#include "Environment.h"
 
 
-radar::radar()
+Radar::Radar(Antenna* antenna,
+	Receiver* receiver,
+	Transmitter* transmitter,
+	Environment *environment):
+	_antenna(antenna),
+	_receiver(receiver),
+	_transmitter(transmitter),
+	_environment(environment)
 {
+
 }
 
 
-radar::~radar()
+Radar::~Radar()
 {
 }
+
